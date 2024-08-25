@@ -41,6 +41,9 @@ export default function SidebarNoteContent({
       {children}
       <button
         className="sidebar-note-open"
+        /**
+         * @bb 屎里雕花🤮，感觉国内大部分人都不喜欢 tailwind，但国外却很狂热，到底是为什么呢？
+         */
         style={{
           backgroundColor: isPending
             ? 'var(--gray-80)'

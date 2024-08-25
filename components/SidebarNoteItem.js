@@ -4,6 +4,9 @@ import SidebarNoteItemContent from '@/components/SidebarNoteItemContent';
 export default function SidebarNoteItem({ noteId, note }) {
   const { title, content = '', updateTime } = note;
 
+  /**
+   * @comment 尽量分离客户端组件
+   */
   return (
     <SidebarNoteItemContent
       id={noteId}
